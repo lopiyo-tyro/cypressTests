@@ -2,8 +2,8 @@
 
 ## Cypress Installation - if applicable
 
-1. Install cypress using any of the methods described here - https://docs.cypress.io/guides/getting-started/installing-cypress.html 
-2. Check your install is successfull (see the versions I used below on macOS Mojave 10.14.6) using the command below or similar 
+1. Install Cypress using any of the methods described here - https://docs.cypress.io/guides/getting-started/installing-cypress.html 
+2. Check your install is successfull (I installed on a macOS Mojave 10.14.6. See below versions of Cypress installed) using the command below or similar 
 ```
 $ $(npm bin)/cypress --version
 Cypress package version: 6.4.0
@@ -13,7 +13,7 @@ Bundled Node version: 12.18.3
 ```
 
 ## How to run tests with browser of choice
-1. Copy integration/e2eScenario.js into the folder where you run your cypress tests. (I used the default integration  sub folder available after my installation in step 1
+1. Copy integration/e2eScenario.js into the folder where you run your Cypress tests. (I used the default integration  sub folder available after my installation in step 1
 2. On a terminal, open Cypress from your project root to start the Cypress Test runner - Different ways to do this can be found at https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress. On a mac termina I did the following:
 ```
  $ $(npm bin)/cypress open
